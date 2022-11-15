@@ -87,6 +87,7 @@ input.form-control:focus {
 footer {
     background: linear-gradient(to right, #2500ac, #2c28ff);
     padding: 20px;
+    margin-bottom: 0px;
     text-transform: none;
 }
 
