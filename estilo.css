@@ -5,8 +5,14 @@
     padding: 0px;
 }
 
+html {
+    height: 100%;
+    width: auto;
+}
+
 body {
     width: 100%;
+    height: auto;
     background-color: rgb(14, 14, 14);
     text-transform: uppercase;
     color: white;
@@ -85,17 +91,13 @@ input.form-control:focus {
 }
 
 footer {
-    background: linear-gradient(to right, #2500ac, #2c28ff);
     padding: 20px;
-    position: absolute;
     width: 100%;
-    bottom: 0;
     text-transform: none;
 }
 
 #pFooter {
     font-size: 1.1rem;
-    margin-top: 30px;
     font-family: 'Poiret One', cursive;
 }
 
@@ -105,7 +107,7 @@ footer {
 
 #rep {
     font-size: 4rem;
-    color: #0c0c0c;
+    color: #0b23ff;
 }
 
 #rep:hover {
