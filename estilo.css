@@ -26,7 +26,7 @@ legend {
 }
 
 .botao {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 button {
@@ -61,7 +61,7 @@ fieldset {
 
 .container {
     padding: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
