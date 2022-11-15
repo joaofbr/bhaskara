@@ -7,7 +7,6 @@
 
 body {
     width: 100%;
-    height: 100%;
     background-color: rgb(14, 14, 14);
     text-transform: uppercase;
     color: white;
@@ -85,6 +84,32 @@ input.form-control:focus {
     color: white;
 }
 
+footer {
+    background: linear-gradient(to right, #2500ac, #2c28ff);
+    padding: 20px;
+    text-transform: none;
+}
+
+#pFooter {
+    font-size: 1.1rem;
+    margin-top: 30px;
+    font-family: 'Poiret One', cursive;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+#rep {
+    font-size: 4rem;
+    color: #0c0c0c;
+}
+
+#rep:hover {
+    transition: 1s;
+    color: #000000;
+}
+
 @media (max-width: 768px) {
     fieldset {
         margin: 20px;
@@ -109,5 +134,13 @@ input.form-control:focus {
 
     h1 {
         font-size: 1.2rem;
+    }
+
+    #pFooter {
+        font-size: 1rem;
+    }
+
+    #rep {
+        font-size: 3rem;
     }
 }
